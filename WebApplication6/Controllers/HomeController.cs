@@ -8,9 +8,9 @@ namespace WebApplication6.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> log)
+        public HomeController(ILogger<HomeController> logger)
         {
-            _logger = log;
+            _logger = logger;
         }
 
         public IActionResult Index()
